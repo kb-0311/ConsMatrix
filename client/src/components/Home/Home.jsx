@@ -31,22 +31,19 @@ const Home = () => {
     <Fragment>
       <Metadata title = "ConsMatrix"/>
           <div className="banner">
-            
-
-            <a href="#container">
-              <button>
-                ConsMatrix <CgMouse />
-              </button>
-            </a>
+           <h1> Cons </h1>
+           <h1> matriX    </h1>
           </div>
           <h2 className="homeHeading">Utilities used in all BOT Projects</h2>
           <div className="container" id="container">
 
           { products && products.map(product=>(
             <Product key={product._id}  product={product}/>
-          ))}
+          ))
+          }
 
           </div>
+
     </Fragment>
       
   )

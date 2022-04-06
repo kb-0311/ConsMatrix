@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../images/home.jpg");
+    background-image: url("../../images/shivendu-shukla-3yoTPuYR9ZY-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,13 +9,15 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: rgb(150, 1, 142);
   }
-  
-  .banner > h1 {
-    margin: 5vmax;
-  
-    font: 600 3vmax "Didact Gothic";
+
+  .banner h1{
+
+    color: floralwhite ;
+    text-decoration: none;
+    padding-left: min(50vw,50rem);
+    font: 600 7vmax "Didact Gothic";
+    
   }
   
   .banner > p {
@@ -138,3 +140,4 @@
       font: 300 1vmax "Roboto";
     }
   }
+
