@@ -30,9 +30,10 @@ const Home = () => {
   return (
     <Fragment>
       <Metadata title = "ConsMatrix"/>
+      
       <div style={{backgroundColor : 'black'}}>
           <div className="banner">
-      
+          <Button className="log">Log in</Button>
            <h1>  Cons </h1>
            <h1 > matriX    </h1>
           </div>
