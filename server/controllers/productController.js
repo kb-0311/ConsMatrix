@@ -1,4 +1,5 @@
 const Product = require("../models/productModel") ;
+const Company = require("../models/companyModel")
 const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require ("../middleware/catchAsyncErros.js") ;
 const ApiFeatures = require ("../utils/apifeatures");
@@ -7,13 +8,16 @@ exports.createProduct = catchAsyncErrors( async (req , res , next) =>{
 
     req.body.user = req.user.id ;
     const product = await Product.create(req.body) ;
+    const companyName = await Product.find({name :product.name} , { companyName  }) ;
 
-    res.status(201).json({
-        success : true ,
-        product
+    const company = await Company.find({name : companyName});  
+        company.companyProducts.push(product) ;
+            res.status(201).json({
+                success : true ,
+                    product 
+                })
+
     })
-
-})
 // Getting all products 
 exports.getAllProducts = catchAsyncErrors( async (req , res) =>{
     const resultPerPage = 5;
