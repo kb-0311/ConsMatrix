@@ -5,7 +5,7 @@ import Product from './Product.js'
 import Metadata from '../../component/layout/Metadata'
 import { getProducts } from '../../actions/productAction'
 import { useSelector , useDispatch } from 'react-redux'
-
+import { Button} from 'react-bootstrap'
 
 const product = {
     name : "ULtraTech Cement 50kg/bag" ,
@@ -30,11 +30,16 @@ const Home = () => {
   return (
     <Fragment>
       <Metadata title = "ConsMatrix"/>
+      <div style={{backgroundColor : 'black'}}>
           <div className="banner">
-           <h1> Cons </h1>
-           <h1> matriX    </h1>
+      
+           <h1>  Cons </h1>
+           <h1 > matriX    </h1>
           </div>
+          <div className='Hheading'>
           <h2 className="homeHeading">Utilities used in all BOT Projects</h2>
+          </div>
+
           <div className="container" id="container">
 
           { products && products.map(product=>(
@@ -43,7 +48,7 @@ const Home = () => {
           }
 
           </div>
-
+      </div>
     </Fragment>
       
   )

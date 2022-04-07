@@ -25,7 +25,6 @@ function App() {
       <Header/>
      
         <Route exact path="/" component = { Home } />
-        <Heading />
       <Footer/>
     </Router>
   );
