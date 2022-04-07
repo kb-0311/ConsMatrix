@@ -12,6 +12,7 @@ const options = {
   profileIcon : true,
   CartIconElement : FcApproval,
   cartIcon : true,
+  burgerColor:"white",
   burgerColorHover: "#eb4034",
   logo,
   logoWidth: "10vmax",
@@ -49,7 +50,10 @@ const options = {
 
 const Header = () => {
   
+
   return <ReactNavbar {...options} />;
+
+
 };
 
 export default Header;

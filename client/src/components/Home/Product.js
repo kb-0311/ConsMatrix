@@ -21,7 +21,7 @@ const Product = ({product}) => {
                 
                
             </div>
-            <div><span> quanitity = {product.Stock}</span></div>
+            <div><span> quantity = {product.Stock}</span></div>
 
             <span>{product.price}</span>
 

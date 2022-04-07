@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Route, Routes} from 'react-router-dom'
 import React, { useEffect } from 'react';
 import Footer from './component/layout/footer/footer.jsx'
 import Home from './components/Home/Home.jsx'
+import Heading from './components/Home/Heading.jsx'
 
 function App() {
 
@@ -22,9 +23,8 @@ function App() {
   return (
     <Router>
       <Header/>
-      
+     
         <Route exact path="/" component = { Home } />
-      
       <Footer/>
     </Router>
   );

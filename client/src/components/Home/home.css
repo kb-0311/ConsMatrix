@@ -1,21 +1,41 @@
 .banner {
-    background-image: url("../../images/home.jpg");
+    background-image: url("../../images/shivendu-shukla-3yoTPuYR9ZY-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vmin;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: right;
+    align-items: right;
     justify-content: center;
-    color: rgb(150, 1, 142);
+   
   }
-  
-  .banner > h1 {
-    margin: 5vmax;
-  
-    font: 600 3vmax "Didact Gothic";
+  .log{
+    width: 116px;
+    height: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font:bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: orange;
+    padding: 0;
+    border: 0;
+    position:fixed;
+    left:85vmax;
+    top:3vmax;
+}
+.log:hover{
+  transform: translateY(-3px);
+}
+  .banner h1{
+
+    color: floralwhite ;
+    text-decoration: none;
+    padding-right: min(10vw,10rem);
+    font: 600 7vmax "Didact Gothic";
+ 
   }
   
   .banner > p {
@@ -52,6 +72,9 @@
     max-width: 100%;
   }
   
+.Hheading{
+  background-color: black;
+}
 
   .homeHeading {
     text-align: center;
@@ -61,7 +84,7 @@
     width: 20vmax;
     padding: 1vmax;
     margin: 5vmax auto;
-    color: rgb(0, 0, 0, 0.7);
+    color: white;
   }
 
   .container { 
@@ -138,3 +161,4 @@
       font: 300 1vmax "Roboto";
     }
   }
+

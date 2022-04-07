@@ -6,28 +6,28 @@ import './footer.css'
 const footer = () => {
   return (
     <footer id="footer">
-        <div className="leftFooter">
+      {/* <div className="leftFooter">
         <h4>DOWNLOAD OUR APP</h4>
         <img src={playStore} alt="playstore" />
         <img src={appStore} alt="Appstore" />
-        </div>
+      </div> */}
 
-        <div className="midFooter">
-            <h1>ConsMatrix</h1>
-            <p>High Quality is our first priority</p>
+      <div className="midFooter">
+        <h1>ConsmatriX</h1>
+        <p>High Quality is our first priority</p>
 
-            <p>Copyrights 2022 &copy; Kanishka Bansode</p>
-        </div>
+        <p>ORDER Of four</p>
+      </div>
 
-        <div className="rightFooter">
+      <div className="rightFooter">
         <h4>Follow Us</h4>
         <a href="">Instagram</a>
         <a href="">Youtube</a>
         <a href="">Facebook</a>
-        </div>
+      </div>
     </footer>
 
-    
+
   )
 }
 
