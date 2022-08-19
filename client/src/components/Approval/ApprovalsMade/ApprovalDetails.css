@@ -1,0 +1,109 @@
+.approvalDetailsPage {
+    background-color: white;
+  }
+  
+  .approvalDetailsContainer > h1 {
+    font: 300 3vmax "Roboto";
+    margin: 4vmax 0;
+    color: rgb(255, 111, 0);
+  }
+  
+  .approvalDetailsContainer {
+    padding: 5vmax;
+    padding-bottom: 0%;
+  }
+  
+  .approvalDetailsContainer > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .approvalDetailsContainerBox,
+  .approvalDetailsCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .approvalDetailsContainerBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .approvalDetailsContainerBox > div > p {
+    font: 400 1vmax "Roboto";
+    color: black;
+  }
+  .approvalDetailsContainerBox > div > span {
+    margin: 0 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+  }
+  
+  .approvalDetailsCartItems > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .approvalDetailsCartItems {
+    padding: 2vmax 5vmax;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  
+  .approvalDetailsCartItemsContainer > div {
+    display: flex;
+    font: 400 1vmax "Roboto";
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .approvalDetailsCartItemsContainer > div > img {
+    width: 3vmax;
+  }
+  
+  .approvalDetailsCartItemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+  }
+  
+  .approvalDetailsCartItemsContainer > div > span {
+    font: 100 1vmax "Roboto";
+    color: #5e5e5e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .approvalDetailsContainer > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .approvalDetailsContainerBox > div {
+      margin: 6vw 0;
+    }
+  
+    .approvalDetailsContainerBox > div > p {
+      font: 400 4vw "Roboto";
+    }
+    .approvalDetailsContainerBox > div > span {
+      font: 100 4vw "Roboto";
+    }
+  
+    .approvalDetailsCartItems > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .approvalDetailsCartItemsContainer > div {
+      font: 400 4vw "Roboto";
+      margin: 4vw 0;
+    }
+  
+    .approvalDetailsCartItemsContainer > div > img {
+      width: 10vw;
+    }
+  
+    .approvalDetailsCartItemsContainer > div > a {
+      margin: 2vw;
+      width: 30%;
+    }
+  
+    .approvalDetailsCartItemsContainer > div > span {
+      font: 100 4vw "Roboto";
+    }
+  }

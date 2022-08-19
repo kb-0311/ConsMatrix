@@ -1,0 +1,63 @@
+.ApprovalItemCard {
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .ApprovalItemCard > img {
+    width: 5vmax;
+  }
+  
+  .ApprovalItemCard > div {
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+  }
+  
+  .ApprovalItemCard > div > a {
+    font: 300 1.1vmax cursive;
+    color: rgba(24, 24, 24, 0.815);
+    text-decoration: none;
+  }
+  
+  .ApprovalItemCard > div > span {
+    font: 300 1.2vmax "Roboto";
+    color: rgba(24, 24, 24, 0.815);
+  }
+  
+  .ApprovalItemCard > div > p {
+    color: rgb(124, 0, 0);
+    font: 100 1.1vmax "Roboto";
+    cursor: pointer;
+  }
+
+  .nameOfUtility {
+    font: 100 1.3vmax "Roboto"
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ApprovalItemCard {
+      padding: 3vmax;
+      height: 25vmax;
+    }
+    .ApprovalItemCard > img {
+      width: 10vmax;
+    }
+  
+    .ApprovalItemCard > div {
+      margin: 1vmax 2vmax;
+    }
+  
+    .ApprovalItemCard > div > a {
+      font: 300 2vmax cursive;
+    }
+  
+    .ApprovalItemCard > div > span {
+      font: 300 1.9vmax "Roboto";
+    }
+  
+    .ApprovalItemCard > div > p {
+      font: 100 1.8vmax "Roboto";
+    }
+  }
