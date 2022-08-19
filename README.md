@@ -1,6 +1,5 @@
 # ConsMatrix
-
-## What exactly is the issue ConsMatrix aims to solve- 
+![ConsMatrix-logos](https://user-images.githubusercontent.com/96020697/185649844-082950aa-23e7-4d15-80fa-1e2bde936f63.jpeg)## What exactly is the issue ConsMatrix aims to solve- 
 During the Government Public Works Tender allocation, the tenders, as well as the potential contractors, are classified into 7 levels - Class A, Class B ..etc according to the total capital, expertise, etc. In Class A subset of contractors, in particular, are usually shortlisted for contracts around 200+ Cr which are under the mega-sized Build-Order-Transfer (BOT)category of contracts (e.g. constructing a bridge over water bodies).
 
 Now, When the bidders are finalized for a BOT project, after all the initial verification, EMD, etc are done then part A of Tender (Technical evaluation) is scheduled where the potential contractor is evaluated by the quality of their utilities, pieces of machinery, and a working prototype sample on which unit test, heat test are all performed as well as 3rd party consultancies are asked to perform their own assessment on the above for each bidder.
